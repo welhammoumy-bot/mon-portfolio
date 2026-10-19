@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+<header>
+    <h1>Mon Portfolio</h1>
+
+    <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+        aria-controls="main-nav"
+    >
+        ☰
+    </button>
+
+    <nav id="main-nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+    <main>
+        <section id="accueil">
+            <h2>Bonjour, je suis développeuse web.</h2>
+            <p>Je crée des sites web modernes et professionnels.</p>
+            <a href="#projets">Découvrir mes projets</a>
+        </section>
+
+
+<section id="projets">
+    <div class="section-intro">
+        <p class="eyebrow">MON TRAVAIL</p>
+        <h2>Mes projets créatifs</h2>
+        <p>Quelques exemples de projets web que je souhaite réaliser.</p>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+            <div class="project-visual visual-one">
+                <span>01</span>
+                <a href="maison-automne/maison.html" class="project-link">
+                    <p>MAISON & ART DE VIVRE</p>
+                    <h3>Maison d'Automne</h3>
+                    <span>Découvrir notre univers ↗</span>
+                </a>
+            </div>
+            <div class="project-info">
+                <div>
+                    <h3>Site vitrine</h3>
+                    <p>Design élégant et chaleureux</p>
+                </div>
+                <span class="project-tag">HTML · CSS</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-visual visual-two">
+                <span>02</span>
+                <div class="visual-content">
+                    <p>CAFÉ · BRUNCH · MOMENTS</p>
+                    <h3>Café Terracotta</h3>
+                    <span>Un moment à savourer ↗</span>
+                </div>
+            </div>
+            <div class="project-info">
+                <div>
+                    <h3>Site de restaurant</h3>
+                    <p>Une expérience gourmande</p>
+                </div>
+                <span class="project-tag">Responsive</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-visual visual-three">
+                <span>03</span>
+                <div class="visual-content">
+                    <p>CRÉATION · IDENTITÉ · STYLE</p>
+                    <h3>Studio Olive</h3>
+                    <span>Créons ensemble ↗</span>
+                </div>
+            </div>
+            <div class="project-info">
+                <div>
+                    <h3>Portfolio créatif</h3>
+                    <p>Une identité visuelle naturelle</p>
+                </div>
+                <span class="project-tag">Web design</span>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Contactez-moi pour vos projets web.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Mon Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
